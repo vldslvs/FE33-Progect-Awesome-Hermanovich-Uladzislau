@@ -1,1 +1,1 @@
-# FE33-ProgectAwesome-Hermanovich-Uladzislau
+# FE33-Progect-Awesome-Hermanovich-Uladzislau
