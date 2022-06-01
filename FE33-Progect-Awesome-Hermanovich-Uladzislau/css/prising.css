@@ -1,0 +1,51 @@
+
+.prising {
+    width: 1170;
+    height: 800;
+    left: 0px;
+    top: 1980px;
+
+    background-color: #F5F5F5;;
+}
+.prising-title {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 34px ;
+
+}
+.line-prising{
+    width: 64px;
+    size: 2px;
+    border: 1px solid #E72424;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    color: #E72424;
+    align-content: top;
+    margin-bottom: 34px;
+}
+.prising-text {
+    width: 363px;
+    height: 19px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+.prising-description {
+    width: 363px;
+    height: 19px;
+    margin: auto;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #86878B;
+    margin-bottom: 62px;
+}
+
