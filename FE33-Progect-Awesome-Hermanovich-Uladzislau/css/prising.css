@@ -1,0 +1,108 @@
+
+.prising {
+    padding: 100px 0;
+    background-color: #F5F5F5;;
+}
+.prise-container {
+    max-width: 1170px;
+    margin: auto;
+    padding: 0 15;
+}
+h3 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.main-title {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 34px ;
+}
+.line-prising{
+    margin: auto;
+    width: 64px;
+    size: 2px;
+    border: 1px solid #E72424;
+    order: 1;
+    flex-grow: 0;
+    color: #E72424;
+    align-content: top;
+    margin-bottom: 34px;
+}
+.prising-description {
+    text-align: center;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #86878B;
+    padding-bottom: 62px;
+}
+.pricing-wrap{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+.list {
+    list-style: none;
+    width: 340px;
+    margin: 0 15px;
+    justify-content: center;
+    padding: 0 15px;
+}
+.list-item-name {
+    width: 340px;
+    left: 948px;
+    top: 326px;
+    font-family: 'Open Sans';
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 52px;
+    background: #333333;
+    text-align: center;
+    margin-bottom: 2px;
+}
+.list-item-prise {
+    width: 340px;
+    height: 100px;
+    font-family: 'Raleway';
+    color: #fff;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 87px;
+    background: #333333;
+    text-align: center;
+    margin-bottom: 2px;
+}
+.list-item-discription {
+    font-family: 'Open Sans';
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 52px;
+    text-align: center;
+    background: #333333;
+}
+.list-item {
+    list-style: none;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 47px;
+    text-align: center;
+    color: #86878B;
+    background: #FFFFFF;
+    margin-bottom: 4px;
+}
