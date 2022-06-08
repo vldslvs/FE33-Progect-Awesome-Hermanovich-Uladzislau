@@ -1,0 +1,71 @@
+.social {
+    background-color: #F8EFEF;
+    padding: 14px 0;
+    width: 100%;
+}
+.social-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 -15px;
+}
+.social-content {
+    margin: 0 111px;
+    text-align: left;
+}
+.social-content-subtitle {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    margin-bottom: 15px;  
+}
+.social-content-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #86878B;
+}
+.social-icons {
+    margin: 0 15px;
+    list-style: none;
+    display: flex;
+    width: 684px;
+    justify-content: space-between;
+}
+.social-icons-links {
+    background-color: #F8EFEF;
+    font-size: 42px;
+    transition: 0.2s;
+}
+.fa-brands {
+    color: #b1aeae;
+    transition-duration: 0,2s;
+}
+.fa-facebook-f:hover{
+    color: blue;
+    -webkit-transform: translateX(-10px);
+    transform: translateX(8px);
+  -webkit-animation: swing 0.6s ease;
+    animation: swing 0.6s ease;
+    cursor: pointer;
+}
+.fa-twitter:hover {
+    color: blueviolet;
+    -webkit-transform: scale(1.8);
+ }
+.fa-telegram:hover {
+    color: black;
+    transform: skew(7deg, 6deg)
+}
+.fa-instagram:hover {
+    width: 37px;
+    height: 37px; ;
+    background:linear-gradient(blue, #b7f708, #f74a67);  
+    border-radius: 30% ;
+    color: #fff;
+}
+.fa-snapchat:hover {
+    
+    background-color: yellow;
+    color: black;
+}

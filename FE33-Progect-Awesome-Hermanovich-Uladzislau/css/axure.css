@@ -81,5 +81,22 @@
     font-family: 'Open Sans';
     font-weight: 600;
     font-size: 15px;
-    line-height: 20px;  
+    line-height: 20px;
+    transition-duration: 0,4s;
+
+}
+.axure-push:hover {
+    width: 135px;
+    height: 42px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    background-color:#EC7979;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    transition-duration: 0,4s;  
 }

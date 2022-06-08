@@ -63,6 +63,7 @@
     border-radius: 7px;
     position: relative;
 }
+
 .customers-card-text::after{
     content: "";
     width: 0; 
