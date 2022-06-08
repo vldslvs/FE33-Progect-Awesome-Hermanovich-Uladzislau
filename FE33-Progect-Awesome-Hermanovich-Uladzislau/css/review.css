@@ -1,0 +1,131 @@
+.title {
+    margin-top: 80px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    text-transform: uppercase; 
+    padding-bottom: 34px;
+}
+.line-customer {
+    content: "";
+    margin: auto;
+    width: 64px;
+    height: 2px;
+    background-color: #E72424;
+    margin-top: 34px;   
+    display: block; 
+    margin-bottom: 34px;
+}
+.discrip {
+    text-align: center;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    line-height: 19px;
+    color: #86878B;
+    margin-bottom: 68px;
+}
+.customers {
+    padding: 100px 0;
+}
+.customers-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+    margin-bottom: 119px;
+}
+.customers-card {
+    width: 298px;
+    margin: 0 15px;
+}
+.title::after{
+    content: "";
+    margin: auto;
+    width: 64px;
+    height: 2px;
+    background-color: #E72424;
+    margin-top: 34px;   
+    display: block; 
+}
+.customers-card-text {
+    background-color: #E2E2E2;
+    font-style: normal;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #86878B;
+    padding: 10px;
+    border-radius: 7px;
+    position: relative;
+}
+
+.customers-card-text::after{
+    content: "";
+    width: 0; 
+    height: 0; 
+    border-left: 15px solid transparent; 
+    border-right: 15px solid transparent; 
+    border-top: 20px solid #E2E2E2;
+    position: absolute;
+    left: 40px;
+    top: 140px;
+}
+.customers-card-info {
+    margin-top: 22px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.customers-card-img-van {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto 30px;
+    background: url(../img/gachi\ .jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    
+}
+.customers-card-img-steve{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 0 auto 30px;
+    background: url(../img/director.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.customers-card-img-billy{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 0 auto 30px;
+    background: url(../img/muchi.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.name {
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+}
+.job {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #86878B;
+    display: block;
+    text-align: right;
+}

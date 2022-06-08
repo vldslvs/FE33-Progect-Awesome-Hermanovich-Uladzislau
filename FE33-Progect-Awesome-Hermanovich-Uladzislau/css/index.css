@@ -1,10 +1,14 @@
-@import url(/FE33-Progect-Awesome-Hermanovich-Uladzislau/css/cdn.css);
-@import url(/FE33-Progect-Awesome-Hermanovich-Uladzislau/main.css);
-@import url(/FE33-Progect-Awesome-Hermanovich-Uladzislau/css/header.css);
-@import url(/FE33-Progect-Awesome-Hermanovich-Uladzislau/css/portfolio.css);
-@import url(/FE33-Progect-Awesome-Hermanovich-Uladzislau/css/foother.css);
-@import url(/FE33-Progect-Awesome-Hermanovich-Uladzislau/css/prising.css);
-@import url(/FE33-Progect-Awesome-Hermanovich-Uladzislau/css/flex.css);
+@import url(/css/header.css);
+@import url(/css/social.css);
+@import url(/css/portfolio.css);
+@import url(/css/prising.css);
+@import url(/css/review.css);
+@import url(/css/axure.css);
+@import url(/css/foother.css);
+@import url(/css/cdn.css);
+@import url(/css/flex.css);
+@import url(/css/stiles.css);
+@import url(/index.html);
 body {
     margin: 0 auto;
     padding: 0;
@@ -15,22 +19,13 @@ body {
 html {
     font-family: 'Raleway','Open Sans', sans-serif;
 }
-.container {
-    max-width: 1170px;
-    top: 1380px;
-    margin: auto;
-    padding: 0 15;
-}
-section {
-  padding: 15px;}
 .main-title {
     font-size: 36px;
     font-weight: 400;
     color: #212121;
-    text-align: center;}
-.portfolio-card-text {
-  width: 350px;
-  height: 60px;}
-.prising-options {
-    font-size: 36px;}
-    
+    text-align: center;
+}
+.prising{
+    margin: 0;
+    box-sizing: border-box;
+}
