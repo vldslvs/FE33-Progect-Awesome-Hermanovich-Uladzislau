@@ -1,14 +1,17 @@
-@import url(/FE33-Progect-Awesome-Hermanovich-Uladzislau/css/cdn.css);
-@import url(/FE33-Progect-Awesome-Hermanovich-Uladzislau/main.css);
-@import url(/FE33-Progect-Awesome-Hermanovich-Uladzislau/css/header.css);
-@import url(/FE33-Progect-Awesome-Hermanovich-Uladzislau/css/portfolio.css);
-@import url(/FE33-Progect-Awesome-Hermanovich-Uladzislau/css/foother.css);
-@import url(/FE33-Progect-Awesome-Hermanovich-Uladzislau/css/prising.css);
-@import url(/FE33-Progect-Awesome-Hermanovich-Uladzislau/css/flex.css);
-@import url(/FE33-Progect-Awesome-Hermanovich-Uladzislau/css/review.css);
-@import url(/FE33-Progect-Awesome-Hermanovich-Uladzislau/css/axure.css);
+@import url(./header.css);
+@import url(./social.css);
+@import url(./portfolio.css);
+@import url(./prising.css);
+@import url(./review.css);
+@import url(./axure.css);
+@import url(./foother.css);
+@import url(./cdn.css);
+@import url(./flex.css);
+@import url(./stiles.css);
+@import url(./trial.css);
 body {
-    margin: 0 auto;
+    min-width: 1170px;
+    margin: 0 5px;
     padding: 0;
     box-sizing: border-box;
     list-style: none;

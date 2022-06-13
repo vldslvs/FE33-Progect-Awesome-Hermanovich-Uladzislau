@@ -81,5 +81,35 @@
     font-family: 'Open Sans';
     font-weight: 600;
     font-size: 15px;
-    line-height: 20px;  
+    line-height: 20px;
+    transition-duration: 0,4s;
+
+}
+.axure-push:hover {
+    width: 135px;
+    height: 42px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    background-color:#EC7979;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    background: rgba($red, 0);
+    transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
+      
+}
+.axure-push:hover {
+    background: rgba($red, 0);
+  font-weight: 900;
+  letter-spacing: 1px;
+  
+  rect {
+    stroke-width: 5;
+    stroke-dasharray: 15, 310;
+    stroke-dashoffset: 48;
+    transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
 }

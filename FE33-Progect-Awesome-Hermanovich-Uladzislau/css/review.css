@@ -50,6 +50,10 @@
     margin-top: 34px;   
     display: block; 
 }
+.customers-card:hover {
+    transform: scale(1.1);
+    transition: 0.9s
+}
 .customers-card-text {
     background-color: #E2E2E2;
     font-style: normal;
@@ -63,6 +67,7 @@
     border-radius: 7px;
     position: relative;
 }
+
 .customers-card-text::after{
     content: "";
     width: 0; 
@@ -112,7 +117,7 @@
     background-size: cover;
 }
 
-.name {
+.naming {
     font-family: 'Open Sans';
     font-weight: 700;
     font-size: 20px;
